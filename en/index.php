@@ -220,12 +220,12 @@
 					</a>
 				</li>
                 <li class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 partner-item">
-					<a href="http://www.phytosuisse.co.kr" target="_blank">
+					<a href="http://www.tosowoong.com" target="_blank">
 						<img class="img-responsive" src="/images/img_partner_banner_15.png" alt="TOSOWOONG">
 					</a>
 				</li>
 				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
-					<a href="http://www.aminigoods.com" target="_blank">
+					<a href="http://www.saimdang.co.kr" target="_blank">
 						<img class="img-responsive" src="/images/img_partner_banner_16.png" alt="사임당화장품">
 					</a>
 				</li>
