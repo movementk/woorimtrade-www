@@ -48,7 +48,6 @@
 					<div class="table-box">
 						<div class="table-cell">
 							<h1 class="logo"><img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE"></h1>
-                            <p>GLOBAL TRADE AND <br>DUTY FREE RETAIL SPEICIALIST</p>
                             <ul>
                                 <li><a href="/cn">中國語</a></li>
                                 <li><a href="/en">ENGLISH</a></li>
@@ -72,14 +71,12 @@
 			<div class="row">
 				<div class="col-sm-6">
 					<a class="about-item" href="#" data-toggle="modal" data-target="#introduce-modal">
-						<h3>우림트레이드 소개</h3>
-						<p>ABOUT WOORIMTRADE</p>
+						<h3>COMPANY MISSION</h3>
 					</a>
 				</div>
 				<div class="col-sm-6">
 					<a class="about-item" href="#" data-toggle="modal" data-target="#history-modal">
-						<h3>회사 연혁</h3>
-						<p>COMPANY HISTORY</p>
+						<h3>COMPANY VISION</h3>
 					</a>
 				</div>
 			</div>
@@ -144,7 +141,6 @@
 		<div class="container">
 			<div class="section-header">
 				<h2>WOORIMTRADE<br><strong>PARTNERS</strong></h2>
-				<p>우림트레이드는 무역, 유통 외식사업을 체계적인 조직으로 운영합니다.</p>
 			</div>
 			<ul class="partner-list">
 				<li class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 partner-item">
@@ -272,8 +268,8 @@
 				<div class="col-sm-6 col-xs-12">
 					<div class="office-item spot-seoul">
 						<div class="map" id="map2"></div>
-						<address>서울시 영등포구 여의도동 국제금융로 10 2IFC 22층</address>
-						<address>2 IFC 22nd Floor  KUKJEKUMYOUNG-RO YEOUUIDO-DONG YOUNGDUNGPO-GU SEOUL, SOUTH KOREA</address>
+						<address>서울시 영등포구 국제금융로 10 TWO IFC 22층 TEC</address>
+						<address>TWO IFC 22nd Floor TEC 10, Gukjegeumyung-ro, Yeongdeungpo-gu, Seoul, Republic of Korea. Zip code 07326</address>
 					</div>
 				</div>
 			</div>
@@ -350,42 +346,43 @@
 	<div id="introduce-modal" class="modal fade" tabindex="-1" role="dialog">
 		<div class="modal-dialog">
 			<div class="modal-content">
-				  <div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><img src="/images/btn_close.png" alt="닫기"></button>
-				  </div>
-				  <div class="modal-body">
-                      <p><img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE"></p>
-					  <p>
-                          2009년부터 (주)우림트레이드는<br> 수입 상품의 국내 유통을 기반으로 성장하여<br>
-                          면세 유통 및 무역의 분야까지 시장을 확대하여 <i>Partner Brand社 의 판매 증진과 가치 성장</i>을 위해 노력하고 있으며 <i>면세 유통 및 무역 전문 기업</i>으로 꾸준히 성장하고 있습니다.
-                      </p>
-				  </div>
+				<div class="modal-header">
+				    <button type="button" class="close" data-dismiss="modal"><img src="/images/btn_close.png" alt="닫기"></button>
+				</div>
+				<div class="modal-body">
+                    <div class="figure"><img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE"></div>
+                    <div class="details">
+                        <p>
+                            국/내외 급변하는 면세 시장의 흐름에 맞춰<br>
+                            고객들의 Needs 를 충족시키기 위해<br>
+                            <i>최적화된 유통망 구축</i>을 통한 브랜드 운영<br>
+                        </p>
+                        <p>
+                            To satisfy customers needs, we created a sales network adjusting to the rapidly changing 
+                            the Duty Free market.
+                        </p>
+                    </div>
+				</div>
 			</div>
 		</div>
 	</div>
     <div id="history-modal" class="modal fade" tabindex="-1" role="dialog">
 		<div class="modal-dialog">
 			<div class="modal-content">
-				  <div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal"><img src="/images/btn_close.png" alt="닫기"></button>
-				  </div>
-				  <div class="modal-body">
-                      <p><img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE"></p>
-					  <dl>
-                          <dt>2009</dt>
-                          <dd>EUROPEAN FOOD 수입</dd>
-                          <dt>2011</dt>
-                          <dd>AUS BEEF 수입</dd>
-                          <dt>2012</dt>
-                          <dd>U.S BEEF 수입</dd>
-                          <dt>2013</dt>
-                          <dd>한국 화장품 수출</dd>
-                          <dt>2015</dt>
-                          <dd>한화 갤러리아 면세점 입점</dd>
-                          <dt>2016</dt>
-                          <dd>신라면세점 입점</dd>
-                      </dl>
-				  </div>
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"><img src="/images/btn_close.png" alt="닫기"></button>
+				</div>
+				<div class="modal-body">
+                    <div class="figure"><img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE"></div>
+                    <div class="details">
+                        <p>
+                            끊임없이 새로운 시장을  갈망하는 다양한 고객층을 위한 <i>신규 브랜드 발굴</i>
+                        </p>
+                        <p>
+                            We discover new brands for variety of customers wishing for new markets
+                        </p>
+                    </div>
+				</div>
 			</div>
 		</div>
 	</div>

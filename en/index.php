@@ -48,7 +48,6 @@
 					<div class="table-box">
 						<div class="table-cell">
 							<h1 class="logo"><img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE"></h1>
-							<p>GLOBAL TRADE AND <br>DUTY FREE RETAIL SPEICIALIST</p>
                             <ul>
                                 <li><a href="/">한국어</a></li>
                                 <li><a href="/cn">中國語</a></li>
@@ -72,12 +71,12 @@
 			<div class="row">
 				<div class="col-sm-6">
 					<a class="about-item" href="#" data-toggle="modal" data-target="#introduce-modal">
-						<h3>ABOUT WOORIMTRADE</h3>
+						<h3>COMPANY MISSION</h3>
 					</a>
 				</div>
 				<div class="col-sm-6">
 					<a class="about-item" href="#" data-toggle="modal" data-target="#history-modal">
-						<h3>COMPANY HISTORY</h3>
+						<h3>COMPANY VISION</h3>
 					</a>
 				</div>
 			</div>
@@ -144,7 +143,6 @@
 		<div class="container">
 			<div class="section-header">
 				<h2>WOORIMTRADE<br><strong>PARTNERS</strong></h2>
-				<p>Woorim Trade Co., Ltd. systematically operates trading and distribution organizations.</p>
 			</div>
 			<ul class="partner-list">
 				<li class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 partner-item">
@@ -271,7 +269,7 @@
 				<div class="col-sm-6 col-xs-12">
 					<div class="office-item spot-seoul">
 						<div class="map" id="map2"></div>
-						<address>2 IFC 22nd Floor  KUKJEKUMYOUNG-RO YEOUUIDO-DONG YOUNGDUNGPO-GU SEOUL, SOUTH KOREA</address>
+						<address>TWO IFC 22nd Floor TEC 10, Gukjegeumyung-ro, Yeongdeungpo-gu, Seoul, Republic of Korea. Zip code 07326</address>
 					</div>
 				</div>
 			</div>
@@ -310,16 +308,15 @@
 					<button type="button" class="close" data-dismiss="modal"><img src="/images/btn_close.png" alt="닫기"></button>
 				</div>
 				<div class="modal-body">
-                    <p><img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE"></p>
-					<p>
-                        Since 2009, Woorim trade managed to successfully market and promote imported products with its distribution channels.<br>
-                        <br>
-                        Through our past experiences, we have expanded the market in major duty free shops in Korea and have built a powerful brand of our own.<br>
-                        <br>
-                        We are a specialist and a leader in duty free retail and global trade market.<br>
-                        <br>
-                        Thank you.
-                    </p>
+               		<div class="figure">
+		            	<img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE">
+                    </div>
+                    <div class="details">
+                        <p>
+                            To satisfy customers needs, we created a sales network adjusting to the rapidly changing
+                            the Duty Free market
+                        </p>
+                    </div>
 				</div>
 			</div>
 		</div>
@@ -331,21 +328,14 @@
 						<button type="button" class="close" data-dismiss="modal"><img src="/images/btn_close.png" alt="닫기"></button>
 				  </div>
 				  <div class="modal-body">
-                      <p><img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE"></p>
-					  <dl>
-                          <dt>2009</dt>
-                          <dd>Importing European food</dd>
-                          <dt>2011</dt>
-                          <dd>Importing Austrailian beef</dd>
-                          <dt>2012</dt>
-                          <dd>Importing U.S beef</dd>
-                          <dt>2013</dt>
-                          <dd>Exporting Korean cosmetic brands</dd>
-                          <dt>2015</dt>
-                          <dd>Hanwha galleria Duty free</dd>
-                          <dt>2016</dt>
-                          <dd>The shilla duty free</dd>
-                      </dl>
+				      <div class="figure">
+	                      <p><img class="img-responsive" src="/images/logo.png" alt="WOORIMTRADE"></p>
+                      </div>
+                      <div class="details">
+                      	  <p>
+                              We discover new brands for variety of customers wishing for new markets
+                          </p>
+                      </div>
 				  </div>
 			</div>
 		</div>
