@@ -174,54 +174,64 @@
 					</a>
 				</li>-->
 				<li class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 partner-item">
+					<a href="http://www.ssgdfs.com/" target="_blank">
+						<img class="img-responsive" src="/images/img_partner_banner_17.png" alt="신세계면세점">
+					</a>
+				</li>
+				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
 					<a href="http://www.ancors.co.kr" target="_blank">
 						<img class="img-responsive" src="/images/img_partner_banner_7.png" alt="ANCORS(화장품 공장)">
 					</a>
 				</li>
-				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
+				<li class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 partner-item">
 					<a href="http://www.jbs.com.br" target="_blank">
 						<img class="img-responsive" src="/images/img_partner_banner_8.png" alt="JBS">
 					</a>
 				</li>
 
-				<li class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 partner-item">
+				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
 					<a href="http://www.huxley.co.kr" target="_blank">
 						<img class="img-responsive" src="/images/img_partner_banner_9.png" alt="huxley">
 					</a>
 				</li>
-				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
+				<li class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 partner-item">
 					<a href="http://www.sophielagirafecosmetics.co.kr" target="_blank">
 						<img class="img-responsive" src="/images/img_partner_banner_10.png" alt="sophielagirafecosmetics">
 					</a>
 				</li>
-				<li class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 partner-item">
+				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
 					<a href="http://www.phytosuisse.co.kr" target="_blank">
 						<img class="img-responsive" src="/images/img_partner_banner_11.png" alt="phytosuisse">
 					</a>
 				</li>
-				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
+				<li class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 partner-item">
 					<a href="http://www.aminigoods.com" target="_blank">
 						<img class="img-responsive" src="/images/img_partner_banner_12.png" alt="amini">
 					</a>
 				</li>
-				<li class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 partner-item">
+				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
 					<a href="http://www.gongmi.co.kr" target="_blank">
 						<img class="img-responsive" src="/images/img_partner_banner_13.png" alt="공미">
 					</a>
 				</li>
-				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
+				<li class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 partner-item">
 					<a href="http://www.the-muse.co.kr" target="_blank">
 						<img class="img-responsive" src="/images/img_partner_banner_14.png" alt="the-musecosmetics">
 					</a>
 				</li>
-                <li class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 partner-item">
+				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
 					<a href="http://www.tosowoong.com" target="_blank">
 						<img class="img-responsive" src="/images/img_partner_banner_15.png" alt="TOSOWOONG">
 					</a>
 				</li>
-				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
+                <li class="col-xs-6 col-sm-5 col-sm-offset-1 col-md-3 col-md-offset-0 partner-item">
 					<a href="http://www.saimdang.co.kr" target="_blank">
 						<img class="img-responsive" src="/images/img_partner_banner_16.png" alt="사임당화장품">
+					</a>
+				</li>
+				<li class="col-xs-6 col-sm-5 col-md-3 partner-item">
+					<a href="http://www.flowfushi.co.kr" target="_blank">
+						<img class="img-responsive" src="/images/img_partner_banner_18.png" alt="FLOWFUSHI">
 					</a>
 				</li>
 			</ul>
