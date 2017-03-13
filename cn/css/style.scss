@@ -209,14 +209,17 @@ body.nav-fixed #header {
     .logo {
         position: relative;
         margin-top: 0;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         @media (min-width: 992px) {
-            margin-bottom: 80px;
+            margin-bottom: 40px;
         }
         img {
-            width: 100%;
+            width: 65%;
+			@media (min-width: 992px) {
+                width: 50%;
+            }
             @media (min-width: 1200px) {
-                width: 75%;
+                width: inherit;
             }
         }
     }
@@ -240,11 +243,14 @@ body.nav-fixed #header {
         }
     }
 	ul {
-        text-align: center;
+		margin: 0 auto;
+		width: 160px;
         li {
-            display: inline-block;
+			float: left;
             margin-left: 5px;
             margin-right: 5px;
+			margin-top: 5px;
+			margin-bottom: 5px;
             @media (min-width: 1280px) {
                 margin-left: 10px;
                 margin-right: 10px;
@@ -259,6 +265,7 @@ body.nav-fixed #header {
                 color: #fff;
                 text-decoration: none;
                 font-size: 12px;
+				text-align: center;
                 &:focus,
                 &:hover,
                 &:active {
@@ -280,10 +287,31 @@ body.nav-fixed #header {
             }
 			&:first-child {
 				a {
-					font-family: 'Dotum', sans-serif;
+					width: 150px;
 				}
 			}
         }
+		@media (min-width: 768px) {
+			width: 220px;
+			li {
+				&:first-child {
+					a {
+						width: 210px;
+					}
+				}
+			}
+		}
+		@media (min-width: 1280px) {
+			width: 380px;
+			li {
+				margin: 10px;
+				&:first-child {
+					a {
+						width: 360px;
+					}
+				}
+			}
+		}
     }
 }
 
@@ -386,7 +414,7 @@ body.nav-fixed #header {
         padding-bottom: 150px;
     }
     .section-header {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         h2 {
             margin-top: 0;
             margin-bottom: 20px;
@@ -396,7 +424,7 @@ body.nav-fixed #header {
             margin-bottom: 80px;
         }
         @media (min-width: 992px) {
-            margin-bottom: 150px;
+            margin-bottom: 120px;
             h2 {
                 margin-bottom: 40px;
                 font-size: 60px;
@@ -407,6 +435,21 @@ body.nav-fixed #header {
         }
     }    
     .partner-list {
+		h4 {
+			clear: both;
+			margin-top: 0;
+			margin-bottom: 40px;
+			font-size: 14px;
+			color: #fff;
+			font-weight: bold;
+			text-shadow: 0 1px 5px rgba(#fff, .15);
+		}
+		ul{
+			overflow: hidden;
+		}
+		ul + h4 {
+			margin-top: 40px;
+		}
         .partner-item {
             margin-bottom: 20px;
             @media (min-width: 992px) {
@@ -416,6 +459,18 @@ body.nav-fixed #header {
                 margin-bottom: 40px;
             }
         }
+		@media (min-width: 992px) {
+			h4 {
+				margin-bottom: 30px;
+				padding-left: 15px;
+				padding-right: 15px;
+				text-align: left;
+				font-size: 24px;
+			}
+			ul + h4 {
+				margin-top: 70px;
+			}
+		}
     }
     
 }
@@ -561,12 +616,10 @@ body.nav-fixed #header {
                 }
             }
         }
-        ul {
+        .sketch {
             margin-bottom: 30px;
-            li:nth-of-type(2) {
-                img {
-                    margin-top: 10px;
-                }
+            p:nth-of-type(2) {
+				margin-top: 10px;
             }
             @media (min-width: 768px) {
                margin-bottom: 50px;
@@ -575,13 +628,55 @@ body.nav-fixed #header {
                margin-bottom: 80px;
             }
         }
-        p {
-            line-height: 1.5em;
-            text-shadow: 0 1px 1px rgba(0, 0, 0, 1);
-            @media (min-width: 992px) {
-                font-size: 20px;
-            }
-        }
+		.summary {
+			p {
+				line-height: 1.5em;
+				text-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+				@media (min-width: 992px) {
+					font-size: 20px;
+				}
+			}
+		}
+		.banner {
+			margin-top: 20px;
+			ul {
+				padding-left: 40px;
+				padding-right: 40px;
+				margin: 0 auto;
+				max-width: 631px;
+				li {
+					float: left;
+					padding: 3px;
+					width: 50%;
+				}
+			}
+			@media (min-width: 992px) {
+				position: absolute;
+				top: 50%;
+				margin-top: -46px;
+				padding-left: 30px;
+				padding-right: 100px;
+				width: 50%;
+				ul {
+					max-width: 366px;
+				}
+			}
+			@media (min-width: 1200px) {
+				margin-top: -63px;
+				ul {
+					max-width: 461px;
+					li {
+						padding: 5px;
+					}
+				}
+			}
+			@media (min-width: 1600px) {
+				margin-top: -90px;
+				ul {
+					max-width: 640px;
+				}
+			}
+		}
         .figure {
             display: none;
             @media (min-width: 992px) {

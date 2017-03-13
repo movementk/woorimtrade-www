@@ -176,15 +176,18 @@ body.nav-fixed #header {
   #home .logo {
     position: relative;
     margin-top: 0;
-    margin-bottom: 50px; }
+    margin-bottom: 20px; }
     @media (min-width: 992px) {
       #home .logo {
-        margin-bottom: 80px; } }
+        margin-bottom: 40px; } }
     #home .logo img {
-      width: 100%; }
+      width: 65%; }
+      @media (min-width: 992px) {
+        #home .logo img {
+          width: 50%; } }
       @media (min-width: 1200px) {
         #home .logo img {
-          width: 75%; } }
+          width: inherit; } }
   #home p {
     margin-bottom: 30px;
     color: #fff;
@@ -204,11 +207,14 @@ body.nav-fixed #header {
         margin-bottom: 60px;
         font-size: 25px; } }
   #home ul {
-    text-align: center; }
+    margin: 0 auto;
+    width: 160px; }
     #home ul li {
-      display: inline-block;
+      float: left;
       margin-left: 5px;
-      margin-right: 5px; }
+      margin-right: 5px;
+      margin-top: 5px;
+      margin-bottom: 5px; }
       @media (min-width: 1280px) {
         #home ul li {
           margin-left: 10px;
@@ -222,7 +228,8 @@ body.nav-fixed #header {
         background-color: transparent;
         color: #fff;
         text-decoration: none;
-        font-size: 12px; }
+        font-size: 12px;
+        text-align: center; }
         #home ul li a:focus, #home ul li a:hover, #home ul li a:active {
           background-color: #81c41c;
           border-color: #81c41c; }
@@ -238,6 +245,20 @@ body.nav-fixed #header {
             height: 45px;
             font-size: 18px;
             line-height: 43px; } }
+      #home ul li:first-child a {
+        width: 150px; }
+    @media (min-width: 768px) {
+      #home ul {
+        width: 220px; }
+        #home ul li:first-child a {
+          width: 210px; } }
+    @media (min-width: 1280px) {
+      #home ul {
+        width: 380px; }
+        #home ul li {
+          margin: 10px; }
+          #home ul li:first-child a {
+            width: 360px; } }
 
 #about {
   position: relative;
@@ -322,7 +343,7 @@ body.nav-fixed #header {
       padding-top: 200px;
       padding-bottom: 150px; } }
   #partners .section-header {
-    margin-bottom: 50px; }
+    margin-bottom: 30px; }
     #partners .section-header h2 {
       margin-top: 0;
       margin-bottom: 20px;
@@ -332,12 +353,24 @@ body.nav-fixed #header {
         margin-bottom: 80px; } }
     @media (min-width: 992px) {
       #partners .section-header {
-        margin-bottom: 150px; }
+        margin-bottom: 120px; }
         #partners .section-header h2 {
           margin-bottom: 40px;
           font-size: 60px; }
         #partners .section-header p {
           font-size: 20px; } }
+  #partners .partner-list h4 {
+    clear: both;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0 1px 5px rgba(255, 255, 255, 0.15); }
+  #partners .partner-list ul {
+    overflow: hidden; }
+  #partners .partner-list ul + h4 {
+    margin-top: 40px; }
   #partners .partner-list .partner-item {
     margin-bottom: 20px; }
     @media (min-width: 992px) {
@@ -346,6 +379,15 @@ body.nav-fixed #header {
     @media (min-width: 1200px) {
       #partners .partner-list .partner-item {
         margin-bottom: 40px; } }
+  @media (min-width: 992px) {
+    #partners .partner-list h4 {
+      margin-bottom: 30px;
+      padding-left: 15px;
+      padding-right: 15px;
+      text-align: left;
+      font-size: 24px; }
+    #partners .partner-list ul + h4 {
+      margin-top: 70px; } }
 
 #contact {
   position: relative;
@@ -452,22 +494,55 @@ body.nav-fixed #header {
             width: 210px; }
           #departs .depart .section-header p {
             font-size: 20px; } }
-    #departs .depart ul {
+    #departs .depart .sketch {
       margin-bottom: 30px; }
-      #departs .depart ul li:nth-of-type(2) img {
+      #departs .depart .sketch p:nth-of-type(2) {
         margin-top: 10px; }
       @media (min-width: 768px) {
-        #departs .depart ul {
+        #departs .depart .sketch {
           margin-bottom: 50px; } }
       @media (min-width: 992px) {
-        #departs .depart ul {
+        #departs .depart .sketch {
           margin-bottom: 80px; } }
-    #departs .depart p {
+    #departs .depart .summary p {
       line-height: 1.5em;
       text-shadow: 0 1px 1px black; }
       @media (min-width: 992px) {
-        #departs .depart p {
+        #departs .depart .summary p {
           font-size: 20px; } }
+    #departs .depart .banner {
+      margin-top: 20px; }
+      #departs .depart .banner ul {
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 0 auto;
+        max-width: 631px; }
+        #departs .depart .banner ul li {
+          float: left;
+          padding: 3px;
+          width: 50%; }
+      @media (min-width: 992px) {
+        #departs .depart .banner {
+          position: absolute;
+          top: 50%;
+          margin-top: -46px;
+          padding-left: 30px;
+          padding-right: 100px;
+          width: 50%; }
+          #departs .depart .banner ul {
+            max-width: 366px; } }
+      @media (min-width: 1200px) {
+        #departs .depart .banner {
+          margin-top: -63px; }
+          #departs .depart .banner ul {
+            max-width: 461px; }
+            #departs .depart .banner ul li {
+              padding: 5px; } }
+      @media (min-width: 1600px) {
+        #departs .depart .banner {
+          margin-top: -90px; }
+          #departs .depart .banner ul {
+            max-width: 640px; } }
     #departs .depart .figure {
       display: none; }
       @media (min-width: 992px) {
